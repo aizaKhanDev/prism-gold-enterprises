@@ -6,6 +6,7 @@ import ITExpertSection from '@/components/ITExpertSection';
 import ConstructionExpertSection from '@/components/ConstructionExpertSection';
 import WhyChooseUsSection from '../components/WhyChooseUsSection';
 import GetInTouchModern from '@/components/GetInTouchModern';
+import ServicesPage from '@/pages/services';
 
 import React from 'react';
 import ITexpert from '@/components/ITexpert';
@@ -22,6 +23,7 @@ export default function Home() {
       <ITexpert />
       <WhyChooseUsSection />
       <GetInTouchModern />
+      <ServicesPage />
     </>
   );
 } 
